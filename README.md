@@ -21,12 +21,10 @@ Data → Cleaning → Model → Evaluation → Improvement
 To build a basic machine learning model using raw dataset.
 
 ## Work Done
-- Loaded dataset
-- Basic visualization
-- Applied Linear Regression
+- Create Basic Dataset
+- contains all information about project
 
 ## Files
-- Phase1.ipynb
 - dataset.csv
 - report.pdf
 
