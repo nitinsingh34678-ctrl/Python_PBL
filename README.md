@@ -1,68 +1,153 @@
 # AIML Project-Based Learning (PBL)
 
+# Predictive Analytics for Urban Water Demand
+
 ## Overview
-This project is developed for PCS-253 AIML. It is divided into 3 phases showing progressive improvement in dataset and model.
+This project is developed for PCS-253 AIML Project-Based Learning (PBL).
 
-## Structure
-- Phase_1 → Basic implementation  
-- Phase_2 → Improved model  
-- Phase_3 → Final optimized model  
+The main objective of this project is to predict and classify urban water consumption using Machine Learning techniques. Multiple models are implemented and compared to improve prediction accuracy and classification performance.
 
-## Technologies
-Python, Pandas, NumPy, Matplotlib, Scikit-learn  
+The project is divided into three phases showing progressive improvement in dataset preparation, preprocessing, model training, and evaluation.
 
-## Workflow
-Data → Cleaning → Model → Evaluation → Improvement  
+---
 
+# Project Structure
 
-# Phase 1 - Initial Development
+## Phase 1 - Initial Development
 
-## Objective
-To build a basic machine learning model using raw dataset.
+### Objective
+To build a basic machine learning project using the raw dataset.
 
-## Work Done
-- Create Basic Dataset
-- contains all information about project
+### Work Done
+- Created initial dataset
+- Basic project implementation
+- Problem understanding
+- Initial data analysis
 
-## Files
+### Files
 - dataset.csv
 - report.pdf
 
+---
 
+## Phase 2 - Model Improvement
 
-# Phase 2 - Improvement
+### Objective
+To improve dataset quality and evaluate machine learning models.
 
-## Objective
-To improve dataset and evaluate model performance.
-
-## Work Done
+### Work Done
 - Data cleaning
 - Feature analysis
-- Model evaluation (MSE, RMSE, R2)
+- Data preprocessing
+- Model evaluation using:
+  - MSE
+  - RMSE
+  - R² Score
 
-## Files
+### Files
 - Phase2.ipynb
 - improved_dataset.csv
 - report.pdf
 
-  
+---
 
-# Phase 3 - Final Implementation
+## Phase 3 - Final Implementation
 
-## Objective
-To build final optimized machine learning model.
+### Objective
+To build an optimized machine learning system for predicting urban water demand.
 
-## Work Done
-- Final dataset used
-- Model optimization
+### Features Used
+- Household_Size
+- Income_Level
+- Garden_Area
+- Rainfall_mm
+- Temperature_C
+- Seasonal_Index
+- Water_Price
+- Appliance_Count
+- Leakage_Factor
+
+### Additional Engineered Features
+- Per_Person_Usage
+- Garden_Impact
+- Water_Intensity
+
+### Machine Learning Models Used
+- Linear Regression
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
+- Decision Tree
+
+### Work Done
+- Final dataset preparation
+- Data preprocessing
+- Feature scaling using StandardScaler
+- Train-test split
+- Model training and prediction
+- Model comparison
 - Performance evaluation
+- Data visualization and graphs
 
-## Files
+### Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- R² Score
+- Mean Squared Error (MSE)
+- Mean Absolute Error (MAE)
+- ROC-AUC Curve
+
+### Visualizations
+- Correlation Heatmap
+- Histogram
+- Boxplot
+- Scatter Plot
+- Confusion Matrix
+- ROC Curve
+- Feature Importance Graph
+
+### Best Performing Model
+Decision Tree achieved the best performance based on F1 Score.
+
+### Files
 - Phase3.ipynb
 - final_dataset.csv
 - report.pdf
 
+---
 
+# Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+- VS Code
 
-## GitHub Repo
-https://github.com/nitinsingh34678-ctrl/Python_PBL
+---
+
+# Workflow
+
+Dataset → Data Cleaning → Feature Engineering → Feature Scaling → Model Training → Prediction → Evaluation → Visualization
+
+---
+
+# Conclusion
+This project successfully predicts and classifies urban water usage using multiple machine learning models. Different preprocessing and evaluation techniques were applied to improve model performance and compare different algorithms effectively.
+
+---
+
+# Future Scope
+- Use advanced models like Random Forest and XGBoost
+- Real-time water demand prediction
+- Deploy using Flask or Streamlit
+- Add live dashboard and monitoring system
+
+---
+
+# GitHub Repository
+
+[Python_PBL Repository](https://github.com/nitinsingh34678-ctrl/Python_PBL?utm_source=chatgpt.com)
